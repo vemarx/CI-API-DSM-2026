@@ -32,3 +32,11 @@ Retorna uma mensagem de funcionamento da API.
 ### GET /status
 
 Retorna o status da aplicação.
+
+## Autor
+
+Verônica Marx
+
+## Disciplina
+
+CI/CD
