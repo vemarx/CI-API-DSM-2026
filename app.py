@@ -8,7 +8,10 @@ def home():
 
 @app.route("/status")
 def status():
-    return jsonify({"status": "ok"})
+    return jsonify({
+        "status": "ok",
+        "service": "CI API DSM"
+    })
 
 if __name__ == "__main__":
     app.run(debug=True)
